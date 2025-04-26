@@ -3,7 +3,7 @@ const fs = require('fs');
 
 // Danh sách các API cung cấp proxy miễn phí (có thể thay đổi theo thời gian)
 const proxySources = [
-  'https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=1000&country=all&ssl=all&anonymity=all',
+  'https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=2000&country=all&ssl=all&anonymity=all',
 ];
 
 async function fetchProxies() {
